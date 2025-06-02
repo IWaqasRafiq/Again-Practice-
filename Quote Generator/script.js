@@ -11,3 +11,7 @@ async function getQoute(url) {
     
 }
 getQoute(api_url);
+
+function threads() {
+    window.open("https://threads.net/intent/post?text=" + qoute.innerHTML , "Threads Window", "width=600, height=300")
+}
